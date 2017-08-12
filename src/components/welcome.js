@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Welcome(props) {
+function Welcome() {
   return (
-    <h1>Hello, {props.name}</h1>
+    <h1>Hello World</h1>
   );
 }
 

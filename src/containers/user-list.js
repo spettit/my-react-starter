@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-
 class UserList extends Component {
   renderList() {
-
       return (
         <li>name</li>
       );
-
   }
 
   render() {
@@ -18,7 +15,5 @@ class UserList extends Component {
     );
   }
 }
-
-
 
 export default UserList;

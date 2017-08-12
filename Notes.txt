@@ -7,3 +7,16 @@ react-dom
 react-router
 babel (es2015 + react)
 eslint (rally-coding + with some global exclusions)
+
+
+NB react-router-dom webpack config:
+
+output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+*    publicPath: '/'
+  },
+  devServer: {
+*    historyApiFallback: true,
+    contentBase: './dist'
+  },
